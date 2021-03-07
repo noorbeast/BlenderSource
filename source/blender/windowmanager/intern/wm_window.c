@@ -477,7 +477,7 @@ void wm_window_title(wmWindowManager *wm, wmWindow *win)
       GHOST_SetTitle(win->ghostwin, str);
     }
     else {
-      GHOST_SetTitle(win->ghostwin, "PyClone");
+      GHOST_SetTitle(win->ghostwin, "Home Design Studio");
     }
 
     /* Informs GHOST of unsaved changes, to set window modified visual indicator (macOS)
